@@ -1,0 +1,6 @@
+{
+  "name": "WhatsApp CRM & Campaign Manager",
+  "description": "Windows-friendly business CRM and WhatsApp campaign management system with Egyptian phone normalization, duplicate merging, Meta Cloud API integration, persistent queue, and compliance safeguards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

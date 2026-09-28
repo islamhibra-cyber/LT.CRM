@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: cacao-whatsapp-crm
+    runtime: node
+    plan: free
+    region: frankfurt # or oregon, ohio, singapore
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/network-info
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: HOST
+        value: 0.0.0.0
